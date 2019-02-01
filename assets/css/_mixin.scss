@@ -1,0 +1,6 @@
+@charset "utf-8";
+@mixin breakPoint($point:null, $minpoint:0px) {
+   @media all and ( min-width: #{$minpoint} ) and ( max-width: #{$point} ) {
+      @content;
+   }
+}

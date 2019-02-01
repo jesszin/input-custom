@@ -1,0 +1,26 @@
+@import url(reset.css);
+.container {
+  max-width: 1165px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media all and (min-width: 0px) and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 50px; } }
+  @media all and (min-width: 0px) and (max-width: 990px) {
+    .container {
+      width: 100%;
+      padding: 0 50px; } }
+  @media all and (min-width: 0px) and (max-width: 720px) {
+    .container {
+      width: 100%;
+      padding: 0 20px; } }
+  @media all and (min-width: 0px) and (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 0 15px; } }
+
+/*# sourceMappingURL=style.css.map */
