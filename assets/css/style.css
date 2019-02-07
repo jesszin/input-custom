@@ -23,4 +23,91 @@
       width: 100%;
       padding: 0 15px; } }
 
+/* input custom */
+.first [type="radio"]:checked,
+.first [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+.first [type="radio"]:checked + label,
+.first [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666; }
+.first [type="radio"]:checked + label:before,
+.first [type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff; }
+.first [type="radio"]:checked + label:after,
+.first [type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #F87DA9;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%; }
+.first [type="radio"]:not(:checked) + label:after {
+  opacity: 0; }
+.first [type="radio"]:checked + label:after {
+  opacity: 1; }
+
+.c-radio ul {
+  display: inline-block; }
+  .c-radio ul li {
+    float: left;
+    margin-right: 10px; }
+    .c-radio ul li:first-child {
+      margin-right: 10px; }
+    .c-radio ul li:last-child {
+      margin-right: 0; }
+    .c-radio ul li input[type="radio"] {
+      position: relative;
+      width: 0;
+      height: 0;
+      line-height: 16px;
+      float: left; }
+      .c-radio ul li input[type="radio"]:before {
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        background: #fff;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+      .c-radio ul li input[type="radio"]:checked:after {
+        content: "";
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        width: 8px;
+        height: 8px;
+        background: #333333;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+    .c-radio ul li label {
+      padding-left: 19px;
+      line-height: 18px;
+      font-size: 13px;
+      color: #333333;
+      font-weight: 500;
+      vertical-align: text-bottom;
+      cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
