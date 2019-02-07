@@ -76,6 +76,7 @@
       width: 0;
       height: 0;
       line-height: 16px;
+      border: none;
       float: left; }
       .c-radio ul li input[type="radio"]:before {
         content: "";
