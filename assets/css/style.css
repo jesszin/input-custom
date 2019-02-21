@@ -118,21 +118,21 @@
     margin-right: 10px; }
     .cc-radio ul li:last-child {
       margin-right: 0; }
-    .cc-radio ul li .ra-control {
+    .cc-radio ul li label {
       position: relative;
       display: inline-block;
       vertical-align: middle; }
-      .cc-radio ul li .ra-control input {
+      .cc-radio ul li label input {
         position: absolute;
         left: -9999em; }
-        .cc-radio ul li .ra-control input + span {
+        .cc-radio ul li label input + span {
           position: relative;
           display: inline-block;
           vertical-align: middle;
           color: #333;
           font-size: 13px;
           font-weight: 500; }
-          .cc-radio ul li .ra-control input + span:before {
+          .cc-radio ul li label input + span:before {
             content: "";
             display: inline-block;
             width: 18px;
@@ -145,7 +145,7 @@
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box; }
-        .cc-radio ul li .ra-control input:checked + span:after {
+        .cc-radio ul li label input:checked + span:after {
           content: "";
           position: absolute;
           top: 50%;
@@ -156,5 +156,20 @@
           margin-top: -3px;
           border-radius: 50%;
           background: #333; }
+
+.selected {
+  width: 160px;
+  height: 30px;
+  background: url(../images/select-bg.png) 100% 50% no-repeat, #fff; }
+  .selected select {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px 0 7px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; }
+    .selected select option {
+      padding-left: 7px;
+      font-size: 13px;
+      color: #333; }
 
 /*# sourceMappingURL=style.css.map */
