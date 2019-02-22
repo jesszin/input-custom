@@ -197,3 +197,49 @@
       }
    }
 }
+
+//responseInput
+.numberSelect{
+   width: 100%;
+   height: 30px;
+   background:#fff;
+   border:1px solid #ccc;
+   box-sizing:border-box;
+   select{
+      width: 100%;height:100%;
+      padding:0 7px;
+   }
+}
+.typing{
+   width:100%;height:30px;
+   background:#fff;
+   border:1px solid #ccc;
+   box-sizing:border-box;
+   select{
+      width: 100%;height:100%;
+      padding:0 7px;
+   }
+}
+.insert{
+   width: 15px;height:30px;
+   margin:0 5px;
+   line-height:30px;text-align:center;
+}
+.responseInput table{
+   tr{height:50px;}
+   th{width:20%;}
+   .insert{float:left;}
+   td.phoneType{
+      & > div{
+         width: calc(100%/3 - 17px);
+         float:left;
+      }
+   }
+   td.emailType{
+      & > div{
+         width: calc(100%/3 - 11px);
+         float:left;
+      }
+   }
+   .direct{margin-right:7px;}
+}

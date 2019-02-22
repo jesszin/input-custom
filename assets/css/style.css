@@ -172,4 +172,48 @@
       font-size: 13px;
       color: #333; }
 
+.numberSelect {
+  width: 100%;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box; }
+  .numberSelect select {
+    width: 100%;
+    height: 100%;
+    padding: 0 7px; }
+
+.typing {
+  width: 100%;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box; }
+  .typing select {
+    width: 100%;
+    height: 100%;
+    padding: 0 7px; }
+
+.insert {
+  width: 15px;
+  height: 30px;
+  margin: 0 5px;
+  line-height: 30px;
+  text-align: center; }
+
+.responseInput table tr {
+  height: 50px; }
+.responseInput table th {
+  width: 20%; }
+.responseInput table .insert {
+  float: left; }
+.responseInput table td.phoneType > div {
+  width: calc(100%/3 - 17px);
+  float: left; }
+.responseInput table td.emailType > div {
+  width: calc(100%/3 - 11px);
+  float: left; }
+.responseInput table .direct {
+  margin-right: 7px; }
+
 /*# sourceMappingURL=style.css.map */
