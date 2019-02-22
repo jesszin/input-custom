@@ -215,5 +215,31 @@
   float: left; }
 .responseInput table .direct {
   margin-right: 7px; }
+.responseInput table td.addrType > div {
+  height: 30px;
+  float: left;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-sizing: border-box; }
+  .responseInput table td.addrType > div input {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px; }
+.responseInput table td.addrType .addrSearch {
+  width: calc(100% - 75px);
+  margin-right: 5px; }
+.responseInput table td.addrType .addrbtn {
+  display: block;
+  width: 70px;
+  height: 30px;
+  background: #333;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  float: left; }
+.responseInput table td.addrType .addrRest {
+  width: 100%;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
