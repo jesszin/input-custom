@@ -250,6 +250,9 @@
   text-align: center;
   -webkit-appearance: button; }
 
+.test {
+  border-radius: 0 !important; }
+
 .test02 {
   border: none;
   outline: none;
