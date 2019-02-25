@@ -263,6 +263,7 @@
 .test03 {
   background: #e5e5e5;
   display: block;
+  padding: 0;
   border: none;
   outline: none;
   -moz-appearance: none;
