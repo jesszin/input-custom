@@ -267,9 +267,13 @@
    }
 }
 /* ios.html */
-.test{
+
+[class*="test"]{
    width: 18px;
    height: 18px;line-height:14px;
    text-align: center;
    -webkit-appearance: button;
+}
+.test02{
+   border:none; outline:none; background:transparent; -moz-appearance:none; -webkit-appearance:none;
 }
