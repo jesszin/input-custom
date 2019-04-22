@@ -284,3 +284,13 @@
    background:#e5e5e5; display:block;padding:0;margin:0 auto;
    border:none; outline:none; -moz-appearance:none; -webkit-appearance:none;
 }
+
+.profileWrap{
+   width: 60px;
+   height: 60px;
+   margin:200px auto 0;
+   border-radius:50%;
+   border:1px solid #ccc;
+   box-sizing:border-box;
+   overflow:hidden;
+}
