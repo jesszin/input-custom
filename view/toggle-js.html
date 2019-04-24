@@ -3,15 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
-    <title>javascript:D</title>
+    <title>hamburger Menu</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="jsWrap">
-    <button class="mobNav">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+    <div class="header">
+        <nav>
+            <button class="mobNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>홈페이지입니다.</h1>
+            <div class="navbar-collapse">
+                <ul class="top-nav">
+                    <li class="dropDown">
+                        <a href="javascript:;">
+                            회사소개
+                            <span class="angle-arrow"></span>
+                        </a>
+                    </li>
+                    <li class="dropDown"><a href="javascript:;">사업분야</a></li>
+                    <li class="dropDown"><a href="javascript:;">설계자료</a></li>
+                    <li class="dropDown"><a href="javascript:;">시공갤러리</a></li>
+                    <li class="dropDown"><a href="javascript:;">건축상담</a></li>
+                    <li class="dropDown"><a href="javascript:;">고객지원</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $(".navbar-collapse").addClass("collapse");
+        $(".mobNav").on("click", function(){
+            $(".navbar-collapse").toggleClass("collapse");
+        });
+    });
+</script>
 </body>
 </html>

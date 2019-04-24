@@ -280,5 +280,70 @@
   overflow: hidden; }
 
 /*  toggle-js.html */
+.jsWrap .header {
+  position: relative;
+  height: 80px;
+  border-top: 6px solid #96cb21;
+  box-sizing: border-box; }
+  .jsWrap .header nav {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    width: 90%;
+    padding: 17px 0;
+    background: skyblue; }
+  .jsWrap .header h1 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff; }
+  .jsWrap .header button.mobNav {
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 40px;
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    background: rgba(150, 151, 156, 0.32);
+    border-radius: 0;
+    float: right;
+    box-sizing: border-box; }
+    .jsWrap .header button.mobNav span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: #fff; }
+      .jsWrap .header button.mobNav span + span {
+        margin-top: 4px; }
+  .jsWrap .header .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: pink; }
+    .jsWrap .header .navbar-collapse .top-nav {
+      padding: 0.5em 0; }
+      .jsWrap .header .navbar-collapse .top-nav li {
+        display: block;
+        margin: 18px 0; }
+        .jsWrap .header .navbar-collapse .top-nav li a {
+          padding: 8px 20px;
+          font-size: 14px;
+          color: #333; }
+          .jsWrap .header .navbar-collapse .top-nav li a span.angle-arrow {
+            display: inline-block;
+            vertical-align: middle;
+            width: 0;
+            height: 0;
+            margin-left: 10px;
+            border-style: solid;
+            border-width: 4px 4px 0 4px;
+            border-color: #333333 transparent transparent transparent; }
+
+.collapse {
+  display: none;
+  height: 0; }
+  .collapse.in {
+    display: block;
+    height: auto; }
 
 /*# sourceMappingURL=style.css.map */
